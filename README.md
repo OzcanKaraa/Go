@@ -1,1 +1,1 @@
-# BTK - GO
+# BTK AKADEMİ - GO KURSU 
