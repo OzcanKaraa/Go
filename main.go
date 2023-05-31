@@ -1,10 +1,13 @@
-package main //paket ilgili dosya kurulum
+package main //Paket tanımlama
 
-import "fmt" //fmt paket
+//Paket ekleme
+import (
+	"fmt"
+	"golesson/variables"
+)
 
-//Main blogu  ile go komutlarini çalıştırma
 func main() {
-	fmt.Print("Hello ")
-	fmt.Println("World ")
-	fmt.Print("!")
+	variables.Demo1()
+
+	fmt.Print()
 }
