@@ -1,0 +1,20 @@
+mkdir GoKursu  // dosya olusturma
+code . //Vscode dosya açması.
+
+
+package main //paket
+
+//standart eklenti
+import "fmt"
+
+//Fonksiyon ile çıktı
+func main() {
+	fmt.Println("Hello World")
+}
+
+//Go Küçük büyük harf duyarlılığı vardır.
+//Kullanmadıgın bi şeyi import edemezsin tanımlayamazsın.Tanımlanmıs olması gerekiyor.
+Println alt satıra geçer 
+Print yan yana 
+
+go run main.go ile çalıştırma 
