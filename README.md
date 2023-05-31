@@ -1,3 +1,3 @@
 <hr>
-<pre>                                             BTK AKADEMİ - GO KURSU </pre>
+<pre>                                                     BTK AKADEMİ - GO KURSU </pre>
 <hr>
