@@ -4,6 +4,7 @@ import "fmt"
 
 //Sayı tahmininde kaçıncı adımda doğru tahmin yapıldı Algoritması.
 //1-3:Super  4-6:Guzel >6 Fena Degil
+
 func Demo6() {
 	aklimdakiSayi := 80
 	tahminEdilenSayi := 0
@@ -29,14 +30,11 @@ func Demo6() {
 	basariDurumu := ""
 
 	if tahminSayisi > 0 && tahminSayisi <= 3 {
-		fmt.Println("Super")
+		basariDurumu = "Super"
+	} else if tahminSayisi < 6 {
+		basariDurumu = "Guzel"
+	} else {
+		basariDurumu = "Fena Degil "
 	}
-	if tahminSayisi > 4 && tahminSayisi <= 6 {
-		fmt.Println("Guzel")
-	}
-	if tahminSayisi > 6 {
-		fmt.Println("Fena Degil ")
-	}
-
-	fmt.Printf("Bravo Bildiniz.  %v tahmin : %v", tahminSayisi, basariDurumu)
+	fmt.Printf("Bravo Bildiniz.  %v tahmin  %v", tahminSayisi, basariDurumu)
 }

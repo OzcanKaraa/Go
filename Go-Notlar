@@ -12,3 +12,5 @@ DRY Kendını tekrar etme
 Kdv:=35 hem tanimlama hem atama yapma
 Printf(veritipi %T,kdv2) //printf ile %T veri tipi sorgulama
 
+fmt.Scanln(&sayi) //Okuma ıslemı ıcın 
+
