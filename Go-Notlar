@@ -1,0 +1,14 @@
+mkdir gokursu //Klasor olusturma
+code . //vs code klasoru acma
+go run main.go //Çalıştırma 
+Buyuk kucuk harf duyarlı
+go run main.go ile çalıştırma
+go mod init golesson //Modul olusturma terminal kisminda ekleme
+Packege
+Functıon
+Fmt format kelımesınden gelıyor
+Degıskenler verıyı tutar
+DRY Kendını tekrar etme
+Kdv:=35 hem tanimlama hem atama yapma
+Printf(veritipi %T,kdv2) //printf ile %T veri tipi sorgulama
+

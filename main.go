@@ -1,6 +1,8 @@
 package main //Paket tanımlama
 
-import "golesson/conditionals"
+import (
+	"golesson/loops"
+)
 
 func main() {
 	//variables.Demo1()
@@ -8,5 +10,6 @@ func main() {
 	//conditionals.Demo1()
 	//conditionals.Demo2()
 	// conditionals.Demo3()
-	conditionals.Demo4()
+	//conditionals.Demo4()
+	loops.Demo1()
 }

@@ -5,6 +5,11 @@ import "fmt"
 func Demo1() {
 	var metin string = "Hello Go"
 	fmt.Println(metin)
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Print(metin)
+	fmt.Println(metin)
 
 	fmt.Println()
 	fmt.Println("Hello World")
@@ -29,4 +34,5 @@ func Demo1() {
 	durum = isim2 == isim1
 	fmt.Println(durum)
 	fmt.Println(!durum)
+
 }
