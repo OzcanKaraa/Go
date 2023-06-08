@@ -11,5 +11,7 @@ func main() {
 	//conditionals.Demo2()
 	// conditionals.Demo3()
 	//conditionals.Demo4()
-	loops.Demo1()
+	//loops.Demo1()
+	// loops.Demo2()
+	loops.Demo3()
 }
