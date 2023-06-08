@@ -2,23 +2,41 @@ package loops
 
 import "fmt"
 
-//Sayı Tahmin Etme If Else -For  döngüsü ile
-func Demo5() {
+//Sayı tahmininde kaçıncı adımda doğru tahmin yapıldı Algoritması.
+//1-3:Super  4-6:Guzel >6 Fena Degil
+func Demo6() {
 	aklimdakiSayi := 80
 	tahminEdilenSayi := 0
+	tahminSayisi := 0
 
 	fmt.Println("Bir sayı tahmin tahmin ediniz?")
 	fmt.Scanln(&tahminEdilenSayi) //Kullanıcıdan Bilgi alma
+	tahminSayisi += 1
 
 	for aklimdakiSayi != tahminEdilenSayi { //aklimdakiSayi tahminEdilenSayi farkli oldugu surece devam etmesi.
 		if aklimdakiSayi > tahminEdilenSayi {
 			fmt.Println("Daha büyük sayı giriniz..")
 			fmt.Scanln(&tahminEdilenSayi)
+			tahminSayisi += 1
 		}
 		if tahminEdilenSayi > aklimdakiSayi {
 			fmt.Println("Daha küçük sayı giriniz..")
 			fmt.Scanln(&tahminEdilenSayi)
+			tahminSayisi += 1
 		}
 	}
-	fmt.Println("Bravo Bildiniz")
+
+	basariDurumu := ""
+
+	if tahminSayisi > 0 && tahminSayisi <= 3 {
+		fmt.Println("Super")
+	}
+	if tahminSayisi > 4 && tahminSayisi <= 6 {
+		fmt.Println("Guzel")
+	}
+	if tahminSayisi > 6 {
+		fmt.Println("Fena Degil ")
+	}
+
+	fmt.Printf("Bravo Bildiniz.  %v tahmin : %v", tahminSayisi, basariDurumu)
 }
