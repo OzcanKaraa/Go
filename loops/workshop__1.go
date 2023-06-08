@@ -14,13 +14,11 @@ func Demo5() {
 		if aklimdakiSayi > tahminEdilenSayi {
 			fmt.Println("Daha büyük sayı giriniz..")
 			fmt.Scanln(&tahminEdilenSayi)
-
-		} else if tahminEdilenSayi > aklimdakiSayi {
+		}
+		if tahminEdilenSayi > aklimdakiSayi {
 			fmt.Println("Daha küçük sayı giriniz..")
-
-		} else if tahminEdilenSayi == aklimdakiSayi {
-			fmt.Println("Bravo Bildiniz")
+			fmt.Scanln(&tahminEdilenSayi)
 		}
 	}
-
+	fmt.Println("Bravo Bildiniz")
 }
