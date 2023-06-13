@@ -18,6 +18,7 @@ func main() {
 	//loops.Demo6()
 	//loops.Demo7()
 	//loops.Demo8()
-	arrays.Demo1()
+	//arrays.Demo1()
+	arrays.Demo2()
 
 }
