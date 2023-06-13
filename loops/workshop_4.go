@@ -14,7 +14,6 @@ func Demo8() {
 		if sayi1%i == 0 {
 			toplam1 += i
 		}
-
 	}
 
 	for i := 1; i < sayi2; i++ {

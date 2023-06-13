@@ -14,3 +14,5 @@ Printf(veritipi %T,kdv2) //printf ile %T veri tipi sorgulama
 
 fmt.Scanln(&sayi) //Okuma ıslemı ıcın 
 
+ul : list item
+go run main.go ile çalıştırma

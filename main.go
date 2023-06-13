@@ -1,5 +1,7 @@
 package main //Paket tanımlama
-import "golesson/loops"
+import (
+	"golesson/arrays"
+)
 
 func main() {
 	//variables.Demo1()
@@ -15,6 +17,7 @@ func main() {
 	//loops.Demo5()
 	//loops.Demo6()
 	//loops.Demo7()
-	loops.Demo8()
+	//loops.Demo8()
+	arrays.Demo1()
 
 }
