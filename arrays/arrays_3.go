@@ -21,5 +21,4 @@ func Demo3() {
 		}
 	}
 	fmt.Println("En Büyük Sayı : ", enBuyuk)
-
 }
