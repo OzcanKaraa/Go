@@ -16,18 +16,13 @@ func Demo4() {
 
 	fmt.Println()
 
-	//Döngü ile tümünü yazdırma
-
-	for i := 0; i < sayilar[2][3]; i++ {
-		for i := 0; i < sayilar1[2][3]; i++ {
-			var sayilar1 [2][3]int // Satir sayisi //Sutun Sayisi
-			sayilar1[0][0] = 1
-			sayilar1[0][1] = 3
-			sayilar1[1][2] = 7
-			sayilar1[1][1] = 9
-			sayilar1[1][2] = 5
-
-			fmt.Println(sayilar1[1][1])
+	//Döngü ile Diziyi yazdırma
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 3; j++ {
+			fmt.Print(sayilar[i][j])
+			fmt.Print(" ")
 		}
+		fmt.Println()
 	}
+	fmt.Println(sayilar[1][1])
 }
