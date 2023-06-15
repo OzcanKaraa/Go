@@ -20,6 +20,7 @@ func main() {
 	//loops.Demo8()
 	//arrays.Demo1()
 	//arrays.Demo2()
-	arrays.Demo3()
+	//arrays.Demo3()
+	arrays.Demo4()
 
 }
