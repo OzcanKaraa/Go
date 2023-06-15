@@ -15,7 +15,6 @@ func Demo4() {
 	fmt.Println(sayilar[1][1])
 
 	fmt.Println()
-
 	//Döngü ile Diziyi yazdırma
 	for i := 0; i < 2; i++ {
 		for j := 0; j < 3; j++ {
