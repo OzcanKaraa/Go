@@ -22,6 +22,6 @@ func main() {
 	//arrays.Demo2()
 	//arrays.Demo3()
 	//arrays.Demo4()
-	slices.Demo1()
-
+	//slices.Demo1()
+	slices.Demo2()
 }
