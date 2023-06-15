@@ -16,3 +16,6 @@ fmt.Scanln(&sayi) //Okuma ıslemı ıcın
 
 ul : list item
 go run main.go ile çalıştırma
+
+
+Slice Append ile yeni eleman ekleniyor.
