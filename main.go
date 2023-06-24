@@ -1,7 +1,6 @@
 package main //Paket tanımlama
 import (
-	"fmt"
-	"golesson/functions"
+	"golesson/maps"
 )
 
 func main() {
@@ -43,13 +42,17 @@ func main() {
 		//fmt.Println("Bolum :", sonuc4)
 	*/
 
-	var sonuc = functions.ToplaVariadic(12, 4, 7, 9, 87, 65)
-	fmt.Println(sonuc)
+	/*
+		var sonuc = functions.ToplaVariadic(12, 4, 7, 9, 87, 65)
+		fmt.Println(sonuc)
 
-	fmt.Println(functions.ToplaVariadic(12, 4, 7))
-	fmt.Println(functions.ToplaVariadic())
+		fmt.Println(functions.ToplaVariadic(12, 4, 7))
+		fmt.Println(functions.ToplaVariadic())
 
-	sayilar := []int{4, 6, 7, 30, 11}
-	fmt.Println(functions.ToplaVariadic(sayilar...))
+		sayilar := []int{4, 6, 7, 30, 11}
+		fmt.Println(functions.ToplaVariadic(sayilar...))
+	*/
+
+	maps.Demo1()
 
 }
