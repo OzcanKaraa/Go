@@ -2,6 +2,7 @@ package maps
 
 import "fmt"
 
+//Map Yapisi
 func Demo1() {
 	//key - value
 	//make fonksiyonu ile
@@ -32,5 +33,8 @@ func Demo1() {
 	deger, varMii := sozluk["book"]
 	fmt.Println(deger)
 	fmt.Println("Listede olma durumu :", varMii)
+
+	sozluk2 := map[string]string{"glass": "bardak", "class": "sinif"}
+	fmt.Println(sozluk2)
 
 }
