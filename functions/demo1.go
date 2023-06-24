@@ -2,7 +2,6 @@ package functions
 
 import "fmt"
 
-//Fonksiyonlar -1
 
 func Topla(sayi1 int, sayi2 int) {
 	var toplam = sayi1 + sayi2

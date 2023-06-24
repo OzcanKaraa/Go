@@ -34,10 +34,19 @@ func main() {
 		fmt.Println(sonuc * 10)
 	*/
 
-	sonuc1, sonuc2, sonuc3, _ := functions.DortIslem(10, 6)
+	/*
+		sonuc1, sonuc2, sonuc3, _ := functions.DortIslem(10, 6)
 
-	fmt.Println("Toplam :", sonuc1)
-	fmt.Println("Cikarma :", sonuc2)
-	fmt.Println("Carpim :", sonuc3)
-	//fmt.Println("Bolum :", sonuc4)
+		fmt.Println("Toplam :", sonuc1)
+		fmt.Println("Cikarma :", sonuc2)
+		fmt.Println("Carpim :", sonuc3)
+		//fmt.Println("Bolum :", sonuc4)
+	*/
+
+	var sonuc = functions.ToplaVariadic(12, 4, 7, 9, 87, 65)
+	fmt.Println(sonuc)
+
+	fmt.Println(functions.ToplaVariadic(12, 4, 7))
+	fmt.Println(functions.ToplaVariadic())
+
 }
