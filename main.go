@@ -49,4 +49,7 @@ func main() {
 	fmt.Println(functions.ToplaVariadic(12, 4, 7))
 	fmt.Println(functions.ToplaVariadic())
 
+	sayilar := []int{4, 6, 7, 30, 11}
+	fmt.Println(functions.ToplaVariadic(sayilar...))
+
 }
