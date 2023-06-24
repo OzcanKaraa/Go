@@ -1,6 +1,7 @@
 package main //Paket tanımlama
 import (
-	"golesson/slices"
+	"fmt"
+	"golesson/functions"
 )
 
 func main() {
@@ -23,5 +24,20 @@ func main() {
 	//arrays.Demo3()
 	//arrays.Demo4()
 	//slices.Demo1()
-	slices.Demo2()
+	//slices.Demo2()
+
+	//functions.SelamVer("Ozcan")
+	//functions.Topla(2, 6)
+
+	/*
+		var sonuc = functions.Toplam(3, 8)
+		fmt.Println(sonuc * 10)
+	*/
+
+	sonuc1, sonuc2, sonuc3, _ := functions.DortIslem(10, 6)
+
+	fmt.Println("Toplam :", sonuc1)
+	fmt.Println("Cikarma :", sonuc2)
+	fmt.Println("Carpim :", sonuc3)
+	//fmt.Println("Bolum :", sonuc4)
 }
