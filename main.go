@@ -1,5 +1,9 @@
 package main //Paket tanımlama
-import "golesson/goroutines"
+import (
+	"fmt"
+	"golesson/goroutines"
+	"time"
+)
 
 func main() {
 	//variables.Demo1()
@@ -79,5 +83,7 @@ func main() {
 
 	go goroutines.CiftSayilar()
 	go goroutines.TekSayilar()
+	time.Sleep(5 * time.Second) //5 Saniye 
+	fmt.Println("Main Bitti")
 
 }
