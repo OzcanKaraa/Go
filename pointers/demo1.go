@@ -2,7 +2,7 @@ package pointers
 
 import "fmt"
 
-//Pointer :
+//Pointer :Bellekteki degişkenlerin tutuldugu yer.
 
 func Demo1(sayi *int) {
 	*sayi = *sayi + 1

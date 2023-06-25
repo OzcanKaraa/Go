@@ -31,3 +31,6 @@ sonuc1, sonuc2, sonuc3, _ := functions.DortIslem(10, 6)
 	//fmt.Println("Bolum :", sonuc4)
 
 
+
+staack sayı=10 101 adsres   sayilar 102
+heap   102 {1,2,3}

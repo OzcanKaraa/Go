@@ -19,4 +19,5 @@ func (c customer) update() {
 func Demo2() {
 	c := customer{firstName: "Ozcan", lastName: "Kara", age: 23}
 	c.save()
+	c.update()
 }
