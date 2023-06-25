@@ -1,7 +1,7 @@
 package main //Paket tanımlama
 import (
 	"fmt"
-	"golesson/goroutines"
+	"golesson/channels"
 	"time"
 )
 
@@ -81,9 +81,15 @@ func main() {
 		goroutines.TekSayilar()
 	*/
 
-	go goroutines.CiftSayilar()
-	go goroutines.TekSayilar()
-	time.Sleep(5 * time.Second) //5 Saniye 
-	fmt.Println("Main Bitti")
+	/*
+		go goroutines.CiftSayilar()
+		go goroutines.TekSayilar()
+		time.Sleep(5 * time.Second) //5 Saniye
+		fmt.Println("Main Bitti")
+	*/
 
+	go channels.CiftSayilar()
+	go channels.TekSayilar()
+	time.Sleep(5 * time.Second)
+	fmt.Println("Main Bitti")
 }
