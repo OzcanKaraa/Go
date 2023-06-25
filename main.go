@@ -1,5 +1,5 @@
 package main //Paket tanımlama
-import "golesson/structs"
+import "golesson/goroutines"
 
 func main() {
 	//variables.Demo1()
@@ -70,6 +70,8 @@ func main() {
 	*/
 
 	//structs.Demo1()
-	structs.Demo2()
+	//structs.Demo2()
 
+	goroutines.CiftSayilar()
+	goroutines.TekSayilar()
 }
