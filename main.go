@@ -69,6 +69,7 @@ func main() {
 		fmt.Println("Maindeki sayı :", sayilar[0])
 	*/
 
-	structs.Demo1()
+	//structs.Demo1()
+	structs.Demo2()
 
 }
