@@ -2,7 +2,6 @@ package main //Paket tanımlama
 import (
 	"fmt"
 	"golesson/channels"
-	"time"
 )
 
 func main() {
@@ -87,9 +86,13 @@ func main() {
 		time.Sleep(5 * time.Second) //5 Saniye
 		fmt.Println("Main Bitti")
 	*/
+	ciftSayiCn := make(chan int)
+	tekSayiCn := make(chan int)
+	go channels.CiftSayilar(ciftSayiCn)
+	go channels.TekSayilar(tekSayiCn)
 
-	go channels.CiftSayilar()
-	go channels.TekSayilar()
-	time.Sleep(5 * time.Second)
-	fmt.Println("Main Bitti")
+	ciftSayiToplam, tekSayiToplam := <-ciftSayiCn, <-tekSayiCn
+
+	carpim := ciftSayiToplam * tekSayiToplam
+	fmt.Println("Çarpım :", carpim)
 }
