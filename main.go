@@ -56,6 +56,6 @@ func main() {
 	//maps.Demo1()
 
 	//for_range.Demo1()
-	for_range.Demo2()
-
+	//for_range.Demo2()
+	for_range.Demo3()
 }
