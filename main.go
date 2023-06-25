@@ -1,6 +1,6 @@
 package main //Paket tanımlama
 import (
-	"golesson/maps"
+	"golesson/for_range"
 )
 
 func main() {
@@ -53,6 +53,9 @@ func main() {
 		fmt.Println(functions.ToplaVariadic(sayilar...))
 	*/
 
-	maps.Demo1()
+	//maps.Demo1()
+
+	//for_range.Demo1()
+	for_range.Demo2()
 
 }
