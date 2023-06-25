@@ -86,6 +86,8 @@ func main() {
 		time.Sleep(5 * time.Second) //5 Saniye
 		fmt.Println("Main Bitti")
 	*/
+
+	
 	ciftSayiCn := make(chan int)
 	tekSayiCn := make(chan int)
 	go channels.CiftSayilar(ciftSayiCn)
