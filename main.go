@@ -72,6 +72,12 @@ func main() {
 	//structs.Demo1()
 	//structs.Demo2()
 
-	goroutines.CiftSayilar()
-	goroutines.TekSayilar()
+	/*
+		goroutines.CiftSayilar()
+		goroutines.TekSayilar()
+	*/
+
+	go goroutines.CiftSayilar()
+	go goroutines.TekSayilar()
+
 }
