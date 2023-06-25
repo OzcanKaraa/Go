@@ -1,8 +1,5 @@
 package main //Paket tanımlama
-import (
-	"fmt"
-	"golesson/pointers"
-)
+import "golesson/structs"
 
 func main() {
 	//variables.Demo1()
@@ -66,8 +63,12 @@ func main() {
 		fmt.Println("Maindeki sayı :", sayi)
 	*/
 
-	sayilar := []int{1, 2, 3}
-	pointers.Demo2(sayilar)
-	fmt.Println("Maindeki sayı :", sayilar[0])
+	/*
+		sayilar := []int{1, 2, 3}
+		pointers.Demo2(sayilar)
+		fmt.Println("Maindeki sayı :", sayilar[0])
+	*/
+
+	structs.Demo1()
 
 }
