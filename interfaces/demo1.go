@@ -35,4 +35,7 @@ func Demo1() {
 	r := rectyangle{widht: 10, height: 6}
 	school(r)
 
+	c := circle{radius: 10}
+	school(c)
+
 }
