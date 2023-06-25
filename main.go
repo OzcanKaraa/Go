@@ -96,5 +96,6 @@ func main() {
 		fmt.Println("Çarpım :", carpim)
 	*/
 
-	interfaces.Demo1()
+	//interfaces.Demo1()
+	interfaces.Demo2()
 }
