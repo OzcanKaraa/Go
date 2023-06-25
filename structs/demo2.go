@@ -1,5 +1,11 @@
 package structs
 
-func Demo2() {
+type customer struct {
+	firstName string
+	lastName  string
+	age       int
+}
+
+func save() {
 
 }
