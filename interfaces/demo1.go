@@ -37,5 +37,4 @@ func Demo1() {
 
 	c := circle{radius: 10}
 	school(c)
-
 }

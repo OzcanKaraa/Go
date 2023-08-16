@@ -1,5 +1,8 @@
 package main //Paket tanımlama
-import "golesson/interfaces"
+import (
+	"golesson/defer_statement"
+	//"golesson/interfaces"
+)
 
 func main() {
 	//variables.Demo1()
@@ -97,5 +100,8 @@ func main() {
 	*/
 
 	//interfaces.Demo1()
-	interfaces.Demo2()
+	//interfaces.Demo2()
+	
+	defer_statement.B()
+
 }
