@@ -36,3 +36,4 @@ staack sayı=10 101 adsres   sayilar 102
 heap   102 {1,2,3}
 
 
+Hata Yakalama:Uygulamada olusan hatalari uygulayip aksiyon alma.

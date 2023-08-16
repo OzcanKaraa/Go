@@ -103,6 +103,7 @@ func main() {
 	//interfaces.Demo2()
 
 	// defer_statement.B()
-	defer_statement.Test()
+	//defer_statement.Test()
+	defer_statement.Demo3()
 
 }
