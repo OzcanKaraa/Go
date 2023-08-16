@@ -3,7 +3,9 @@ package defer_statement
 import "fmt"
 
 func Demo2(sayi int32) string {
+	DeferFunc()
 	if sayi%2 == 0 {
+		fmt.Println("Cift sayi calisti")
 		return "Çift Sayidir."
 	}
 
