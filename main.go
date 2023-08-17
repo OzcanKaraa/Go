@@ -1,6 +1,6 @@
 package main //Paket tanımlama
 import (
-	"golesson/error_handling"
+	"golesson/interfaces"
 	//"golesson/interfaces"
 )
 
@@ -107,6 +107,8 @@ func main() {
 	//defer_statement.Demo3()
 
 	//error_handling.Demo1()
-	error_handling.Demo2()
+	//error_handling.Demo2()
+
+	interfaces.Demo3()
 
 }
