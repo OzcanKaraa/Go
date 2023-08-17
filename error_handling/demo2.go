@@ -7,7 +7,7 @@ import (
 
 // type assertion
 func Demo2() {
-	f, err := os.Open("demo11.txt") //nil
+	f, err := os.Open("demo11.txt") //nil Hata yok.
 	if err != nil {
 		if pErr, ok := err.(*os.PathError); ok {
 			fmt.Println("Dosya Bulunamadi : ", pErr.Path)
