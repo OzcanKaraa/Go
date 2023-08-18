@@ -1,7 +1,6 @@
 package main //Paket tanımlama
 import (
-	"fmt"
-	"golesson/error_handling"
+	"golesson/string_functions"
 	//"golesson/interfaces"
 )
 
@@ -113,6 +112,9 @@ func main() {
 	//interfaces.Demo3()
 
 	//error_handling.Demo3()
-	fmt.Println(error_handling.TahminEt2(102))
+	//fmt.Println(error_handling.TahminEt2(102))
+
+	//string_functions.Demo1()
+	string_functions.Demo2()
 
 }
