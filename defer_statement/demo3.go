@@ -10,7 +10,7 @@ type product struct {
 func (p product) save() {
 	fmt.Println("Urun Kaydedildi : ", p.productName)
 	defer Log()
-}""
+}
 
 func Log() {
 	fmt.Println("Log islemi uygulandi.")

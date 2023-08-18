@@ -1,8 +1,7 @@
 package main //Paket tanımlama
-import (
-	"golesson/string_functions"
-	//"golesson/interfaces"
-)
+import "golesson/restful"
+
+//"golesson/interfaces"
 
 func main() {
 	//variables.Demo1()
@@ -115,6 +114,8 @@ func main() {
 	//fmt.Println(error_handling.TahminEt2(102))
 
 	//string_functions.Demo1()
-	string_functions.Demo2()
+	//string_functions.Demo2()
+
+	restful.Demo1()
 
 }

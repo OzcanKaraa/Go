@@ -4,39 +4,38 @@ go run main.go //Çalıştırma
 Buyuk kucuk harf duyarlı
 go run main.go ile çalıştırma
 go mod init golesson //Modul olusturma terminal kisminda ekleme
-Packege
-Functıon
+Package
+Function
 Fmt format kelımesınden gelıyor
 Degıskenler verıyı tutar
 DRY Kendını tekrar etme
-Kdv:=35 hem tanimlama hem atama yapma
+:= hem tanimlama hem atama yapma
 Printf(veritipi %T,kdv2) //printf ile %T veri tipi sorgulama
 
-fmt.Scanln(&sayi) //Okuma ıslemı ıcın 
+fmt.Scanln(&sayi) //Okuma islemi 
 
 ul : list item
-go run main.go ile çalıştırma
-
-
+go run main.go ile çalistirma
 Slice Append ile yeni eleman ekleniyor.
-
-
-
 Fonksiyonlarda _ isaretinin anlami bos indis degeri 
-sonuc1, sonuc2, sonuc3, _ := functions.DortIslem(10, 6)
 
-	fmt.Println("Toplam :", sonuc1)
-	fmt.Println("Cikarma :", sonuc2)
-	fmt.Println("Carpim :", sonuc3)
-	//fmt.Println("Bolum :", sonuc4)
-
-
-
-staack sayı=10 101 adsres   sayilar 102
+stack sayı=10 101 adsres   sayilar 102
 heap   102 {1,2,3}
-
 
 Hata Yakalama:Uygulamada olusan hatalari uygulayip aksiyon alma.
 Kullanicidan alinan parametrenin algoritmaya uygun olmamasi.
 Kontrol disi hata olabilir.
 Programcinin hatayi kontrol edemedigi fakat hataya gore aksiyon alan yapilardir.
+
+Distributed : Dagitik Sistemler
+
+RestFul Format:Istek Yanit
+SOAP WEB SERVICE
+Response
+GET Veriyi okuma
+Post-Put-Patch-Delete Veri uzerinde degisiklik yapma.
+Client Server
+
+
+Get  :Okuma
+Post :Silme Guncelleme Ekleme
