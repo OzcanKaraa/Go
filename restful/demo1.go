@@ -1,6 +1,7 @@
 package restful
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -14,6 +15,7 @@ type Todo struct {
 	Completed bool   `json:"Completed"`
 }
 
+// GET ISLEMI
 func Demo1() {
 	response, err := http.Get("http://jsonplaceholder.typicode.com/todos/1")
 	if err != nil {
@@ -28,4 +30,25 @@ func Demo1() {
 	var todo Todo
 	json.Unmarshal(bodyBytes, &todo)
 	fmt.Println(todo)
+}
+
+// POST ISLEMI
+func Demo2() {
+	todo := Todo{1, 2, "Alisveris yapilacak", false}
+	jsonTodo, err := json.Marshal(todo) //jaon formatina donusturme islemi
+
+	response, err := http.Post("http://jsonplaceholder.typicode.com/todos", "application/json;charset=utf-8", bytes.NewBuffer(jsonTodo))
+
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer response.Body.Close()
+
+	bodyBytes, _ := ioutil.ReadAll(response.Body)
+	bodyString := string(bodyBytes)
+	fmt.Println(bodyString)
+
+	var todoResponse Todo
+	json.Unmarshal(bodyBytes, &todoResponse)
+	fmt.Println(todoResponse)
 }
