@@ -1,2 +1,2 @@
-npm install -g json-server <br>
-json-server --watch db.json 
+<H2> GO PROGRAMLAMA DILI </H2>H2>
+<BR>
