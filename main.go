@@ -1,5 +1,8 @@
 package main //Paket tanımlama
-import "golesson/restful"
+import (
+	"fmt"
+	"golesson/project"
+)
 
 //"golesson/interfaces"
 
@@ -117,6 +120,36 @@ func main() {
 	//string_functions.Demo2()
 
 	//restful.Demo1()
-	restful.Demo2()
+	// restful.Demo2()
+
+	//project.GetAllProducts()
+	//project.AddProduct()
+
+	//products, _ := project.GetAllProducts()
+	//fmt.Println(products)
+
+	//Verileri tek tek yazdirma
+	/*
+		for i := 0; i < len(products); i++ {
+			fmt.Println(products[i].ProductName)
+		}
+	*/
+
+	/*
+		project.AddProduct()
+		products, _ := project.GetAllProducts()
+		for i := 0; i < len(products); i++ {
+			fmt.Println(products[i].ProductName)
+		}
+	*/
+
+	product, _ := project.GetAllProducts()
+	fmt.Println(product)
+
+	project.AddProduct()
+	products, _ := project.GetAllProducts()
+	for i := 0; i < len(products); i++ {
+		fmt.Println(products[i].ProductName)
+	}
 
 }
