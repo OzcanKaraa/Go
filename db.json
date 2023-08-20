@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Laptop",
+            "categoryId": 1,
+            "UnitPrice" :500.99
+        },
+        {
+            "id": 2,
+            "productName": "Mouse",
+            "categoryId": 1,
+            "UnitPrice" :50.99
+        },
+        {
+            "id": 3,
+            "productName": "Water",
+            "categoryId": 2,
+            "UnitPrice" :0.99
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "categoryName": "Technology"
+        },
+        {
+            "id": 2,
+            "categoryName": "Beverages"
+        }
+    ]
+}
